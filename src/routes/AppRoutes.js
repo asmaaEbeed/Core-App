@@ -38,17 +38,17 @@ const AppRoutes = () => {
         <Route
           path="/"
           exact
-          element={(storageId || loginContext.isLogin) ? <Dashboard /> : <Navigate to="/login" />}
+          element={(storageId && loginContext.isLogin) ? <Dashboard /> : <Navigate to="/login" />}
         />
         <Route
           path="/dashboard"
-          element={storageId ? <Dashboard /> : <Navigate to="/login" />}
+          element={(storageId && loginContext.isLogin) ? <Dashboard /> : <Navigate to="/login" />}
         />
         {/* Company Routes */}
         <Route
           path="/company"
           exact
-          element={storageId ? <Company /> : <Navigate to="/login" />}
+          element={(storageId && loginContext.isLogin) ? <Company /> : <Navigate to="/login" />}
         />
         <Route
           path="/company/:id"
@@ -158,7 +158,7 @@ const AppRoutes = () => {
 
         <Route
           path="/login"
-          element={storageId ? <Navigate to="/" /> : <Login />}
+          element={(storageId && loginContext.isLogin) ? <Navigate to="/dashboard" /> : <Login />}
         />
 
         <Route path="*" exact={true} element={<NotFound />} />
