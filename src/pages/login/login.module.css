@@ -1,0 +1,55 @@
+.loginWrapper {
+    background-image: url("../../images/login-bg.png");
+    background-size: cover;
+    min-height: 100vh;
+}
+.welcomeTitle {
+    font-size: 20px;
+    letter-spacing: 4px;
+    padding-top: 10px;
+    border-bottom: 1px solid #fff;
+    border-radius: 30%;
+}
+.loginTitle {
+    font-size: 14px;
+    padding: 4px 0 15px;
+    letter-spacing: 3px;
+}
+.pt7per {
+    padding-top: 7%;
+}
+.personIcon {
+    font-size: 25px !important;
+    width: 4rem !important;
+    height: 4rem !important;
+}
+
+.inputLogin {
+    background-color: rgb(255 255 255 / 21%);
+    border-bottom: 2px solid rgb(255 255 255 / 50%);
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.2s all ease-in;
+}
+.inputLogin:-webkit-autofill, .inputLogin:-webkit-autofill:hover, .inputLogin:-webkit-autofill:focus {
+    background-color: rgb(255 255 255 / 21%) !important;
+    box-shadow: none !important;
+
+}
+.inputLogin:focus-visible {
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+}
+
+.submitBtn {
+    background-color: rgba(0, 0, 0, 0.212);
+    width: 100%;
+    color: #fff;
+    border-radius: 5px;
+
+}
+.submitBtn:hover {
+    transition: 0.2s all ease-in;
+    background-color: rgba(0, 0, 0, 0.45);
+
+}

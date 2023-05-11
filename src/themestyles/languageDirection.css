@@ -1,0 +1,37 @@
+.ar-rtl {
+    direction: rtl;
+}
+.ar-rtl .ar-ltr {
+    direction: ltr
+}
+.ar-rtl .ar-text-right {
+    text-align: right;
+}
+
+.ar-rtl .attach-icon {
+    left: 2.5rem;
+    right: auto
+}
+.ar-rtl .label-helper {
+    right: 15px !important;
+    left: auto !important
+}
+.ar-rtl .ar-action-menu {
+    left: 0.25rem;
+    right: auto
+}
+.ar-rtl .ar-date {
+    flex-direction: row-reverse;
+    text-align: right
+}
+
+.ar-rtl .MuiSelect-icon.MuiSelect-iconOutlined{
+    left: 7px;
+    right: auto;
+}
+.ar-rtl .ar-text-left {
+    text-align: left;
+}
+.ar-rtl .MuiTableCell-root.MuiTableCell-body {
+    text-align: right
+}

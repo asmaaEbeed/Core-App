@@ -1,0 +1,39 @@
+{
+  "companies": [
+    {
+        "id": "001",
+        "companyName": "Company 1",
+        "companyType": "type 1",
+        "creationDate": "15/1/1989"
+      },
+      {
+        "id": "002",
+        "companyName": "Company 2",
+        "companyType": "type 2",
+        "creationDate": "15/1/1989"
+      },
+      {
+        "id": "003",
+        "companyName": "Company 3",
+        "companyType": "type 3",
+        "creationDate": "15/1/1989"
+      },
+      {
+        "id": "004",
+        "companyName": "Company 4",
+        "companyType": "type 4",
+        "creationDate": "15/1/1989"
+      }
+  ]
+}
+
+const array = ["09/08/2014, 2:35:56 AM",
+"09/08/2016, 2:35:56 AM",
+"12/08/2016, 3:35:56 PM",
+"11/25/2022, 2:11:56 AM",
+"09/08/2014, 2:35:56 AM"
+]
+
+array.sort((a, b) => new Date(b).getTime() - new Date(a).getTime())
+
+    console.log(array)

@@ -1,0 +1,91 @@
+/* form style */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus{
+  background-color: #fff !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0), inset 0 0 0 100px rgba(255, 255, 255,1);
+
+}
+.form-row {
+  margin-bottom: 0;
+  padding: 4px 0;
+  position: relative; 
+}
+.label-helper {
+  position: absolute !important;
+  opacity: 0;
+  transition: .2s bottom, .2s opacity;
+  bottom: 0;
+  left: 15px !important;
+  z-index: 5;
+}
+.label-helper.visible {
+  opacity: 1;
+  bottom: 84%;
+  background-color: #fff;
+  font-family: arial;
+  font-size: 12px;
+  line-height: 1;
+  opacity: 1;
+  padding: 2px; 
+  font-weight: 600;
+}
+.input-text:focus + .label-helper {
+  bottom: 84%;
+  background-color: #fff;
+  /* text-shadow: 2px 1px 1px #ffffff, -2px 0px 1px #fff; */
+  font-family: arial;
+  font-size: 12px;
+  line-height: 1;
+  opacity: 1;
+  padding: 2px; 
+  font-weight: 600;
+}
+
+textarea.input-text:focus + .label-helper{
+  bottom: 91%;
+}
+
+textarea.input-text + .label-helper.visible{
+  bottom: 91%;
+}
+.MuiTable-root tr:last-child td .action-wrapper .last-relative{
+  position: relative
+}
+
+/*MUI MultiSelect*/
+.MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+  border: none;
+}
+.MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  outline-color: #A1D1D8;
+}
+.MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #A1D1D8
+}
+.MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color: #A1D1D8 !important
+}
+.MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input, 
+.MuiSelect-select.MuiSelect-outlined.MuiSelect-multiple.MuiInputBase-input.MuiOutlinedInput-input{
+  padding: 7.5px 10px !important;
+}
+.MuiOutlinedInput-notchedOutline{
+  display: none;
+}
+
+.MuiPopover-paper .MuiIconButton-root{
+  color: #000 !important;
+  box-shadow: none;
+}
+.wrapper {
+  min-height: 100vh;
+}
+.larg-icon:hover svg {
+  transform: scale(1.2);
+  transition: 0.2s all ease-in-out;
+}
+
+
+
+

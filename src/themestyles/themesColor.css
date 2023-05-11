@@ -1,0 +1,493 @@
+/*********Theme Cyan Light*************/
+
+.bg-themeCyanLight-light {
+    background-color: #effdff
+}
+
+.bg-themeCyanLight {
+    background-color: #106D7A;
+}
+
+.hover-bg-themeCyanLight:hover {
+    background-color: #effdff
+}
+
+.border-themeCyanLight-md-light,
+.hover-border-themeCyanLight-md-light:hover {
+    border-color: #A1D1D8
+}
+
+.border-themeCyanLight {
+    border-color: #106D7A;
+}
+
+.text-themeCyanLight,
+.hover-text-themeCyanLight:hover {
+    color: #106D7A
+}
+
+.focus-outline-themeCyanLight-md-light:focus,
+.focus-outline-themeCyanLight-md-light:focus-visible {
+    outline-color: #A1D1D8;
+}
+
+/*********Theme Red Light*************/
+
+
+.bg-themeRedLight-light {
+    background-color: #F7F5EB
+}
+
+.bg-themeRedLight {
+    background-color: #C87373;
+
+}
+
+.hover-bg-themeRedLight:hover {
+    background-color: #F7F5EB
+}
+
+.border-themeRedLight-md-light,
+.hover-border-themeRedLight-md-light:hover {
+    border-color: #F4C5C5
+}
+
+.border-themeRedLight {
+    border-color: #C87373;
+}
+
+
+.text-themeRedLight,
+.hover-text-themeRedLight:hover {
+    color: #C87373
+}
+
+
+.focus-outline-themeRedLight-md-light:focus,
+.focus-outline-themeRedLight-md-light:focus-visible {
+    outline-color: #F4C5C5
+}
+
+/*********Theme Purple Light*************/
+
+.bg-themePurpleLight-light {
+    background-color: #F4F1F4
+}
+
+.bg-themePurpleLight {
+    background-color: #624F82;
+
+}
+
+.hover-bg-themePurpleLight:hover {
+    background-color: #F4F1F4
+}
+
+.border-themePurpleLight-md-light,
+.hover-border-themePurpleLight-md-light:hover {
+    border-color: #D8C7D5
+}
+
+.border-themePurpleLight {
+    border-color: #624F82;
+}
+
+
+.text-themePurpleLight,
+.hover-text-themePurpleLight:hover {
+    color: #624F82
+}
+
+
+.focus-outline-themePurpleLight-md-light:focus,
+.focus-outline-themePurpleLight-md-light:focus-visible {
+    outline-color: #D8C7D5
+}
+
+/*********Theme Blue Light*************/
+
+.bg-themeBlueLight-light {
+    background-color: #f5f5f5
+}
+
+.bg-themeBlueLight {
+    background-color: #12006C;
+
+}
+
+.hover-bg-themeBlueLight:hover {
+    background-color: #f5f5f5
+}
+
+.border-themeBlueLight-md-light,
+.hover-border-themeBlueLight-md-light:hover {
+    border-color: #ACB1FF
+}
+
+.border-themeBlueLight {
+    border-color: #12006C;
+}
+
+
+.text-themeBlueLight,
+.hover-text-themeBlueLight:hover {
+    color: #12006C
+}
+
+
+.focus-outline-themeBlueLight-md-light:focus,
+.focus-outline-themeBlueLight-md-light:focus-visible {
+    outline-color: #ACB1FF
+}
+
+/*****Theme blue Dark*******/
+.wrapper.bg-dark-themeBlueDark {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0b066d+20,2989d8+100 */
+    background: #0b066d;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #0b066d 20%, #2989d8 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #0b066d 20%, #2989d8 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #0b066d 20%, #2989d8 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b066d', endColorstr='#2989d8', GradientType=0);
+    /* IE6-9 */
+}
+
+.bg-dark-themeBlueDark .bg-themeBlueDark-light {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+.border-themeBlueDark-md-light {
+    border-color: rgb(0 0 0 / 50%)
+}
+
+.bg-dark-themeBlueDark select.bg-themeBlueDark-light {
+    color: #fff
+}
+
+.bg-dark-themeBlueDark .bg-themeBlueDark-card {
+    background-color: rgb(0 0 0 / 34%);
+}
+
+.bg-dark-themeBlueDark .text-themeBlueDark {
+    color: #fff
+}
+
+.bg-dark-themeBlueDark .text-dark-theme {
+    color: #000
+}
+
+.bg-dark-themeBlueDark .bg-themeBlueDark-card h2,
+.bg-dark-themeBlueDark .sidebar-list {
+    color: #fff
+}
+
+.bg-dark-themeBlueDark .bg-themeBlueDark-card [type="radio"]+label {
+    color: #fff
+}
+
+.bg-dark-themeBlueDark .notification {
+    color: #fff
+}
+
+.bg-dark-themeBlueDark .text-active-themeBlueDark,
+.hover-text-themeBlueDark:hover,
+.bg-dark-themeBlueDark .text-themeBlueDark-dark {
+    color: #0B066D
+}
+.border-themeBlueDark {
+    border-color: #0a1f3c
+}
+
+.bg-dark-themeBlueDark .input-text:focus+.label-helper {
+    background-color: rgb(255 255 255 / 0%);
+    bottom: auto;
+    top: -11px;
+}
+
+.bg-dark-themeBlueDark .label-helper.visible {
+    opacity: 1;
+    bottom: auto;
+    top: -11px;
+    background-color: #ffffff00;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 1;
+    opacity: 1;
+    padding: 2px;
+    font-weight: 600;
+}
+
+/* .MuiButtonBase-root.MuiIconButton-root {
+    color: #fff
+  } */
+.bg-dark-themeBlueDark .css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active .MuiTableSortLabel-icon {
+    color: #fff
+}
+
+/********Theme themeDianeeDark Theme**********/
+.wrapper.bg-dark-themeDianeeDark {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#10140e+0,0e4250+100 */
+    background: #10140e;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #10140e 0%, #0e4250 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #10140e 0%, #0e4250 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #10140e 0%, #0e4250 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#10140e', endColorstr='#0e4250', GradientType=0);
+    /* IE6-9 */
+
+}
+
+.bg-dark-themeDianeeDark .bg-themeDianeeDark-light {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+.border-themeDianeeDark-md-light {
+    border-color: rgb(0 0 0 / 50%)
+}
+
+.bg-dark-themeDianeeDark select.bg-themeDianeeDark-light {
+    color: #fff
+}
+
+.bg-dark-themeDianeeDark .bg-themeDianeeDark-card {
+    background-color: rgb(0 0 0 / 34%);
+}
+
+.bg-dark-themeDianeeDark .text-themeDianeeDark {
+    color: #fff
+}
+
+.bg-dark-themeDianeeDark .text-dark-theme {
+    color: #000
+}
+
+.bg-dark-themeDianeeDark .bg-themeDianeeDark-card h2,
+.bg-dark-themeDianeeDark .sidebar-list {
+    color: #fff
+}
+
+.bg-dark-themeDianeeDark .bg-themeDianeeDark-card [type="radio"]+label {
+    color: #fff
+}
+
+.bg-dark-themeDianeeDark .notification {
+    color: #fff
+}
+
+.bg-dark-themeDianeeDark .text-active-themeDianeeDark,
+.hover-text-themeDianeeDark:hover,
+.bg-dark-themeDianeeDark .text-themeDianeeDark-dark {
+    color: #085367
+}
+.border-themeDianeeDark {
+    border-color: #085367
+}
+
+.bg-dark-themeDianeeDark .input-text:focus+.label-helper {
+    background-color: rgb(255 255 255 / 0%);
+    bottom: auto;
+    top: -11px;
+}
+
+.bg-dark-themeDianeeDark .label-helper.visible {
+    opacity: 1;
+    bottom: auto;
+    top: -11px;
+    background-color: #ffffff00;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 1;
+    opacity: 1;
+    padding: 2px;
+    font-weight: 600;
+}
+
+/* .MuiButtonBase-root.MuiIconButton-root {
+    color: #fff
+  } */
+.bg-dark-themeDianeeDark .css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active .MuiTableSortLabel-icon {
+    color: #fff
+}
+
+/********Theme themeDianeeDark Theme**********/
+.wrapper.bg-dark-themeBrownDark {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2f1e24+0,603326+100 */
+    background: #1a1013;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #1a1013 0%, #603326 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1a1013 0%, #603326 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1a1013 0%, #603326 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a1013', endColorstr='#603326', GradientType=0);
+    /* IE6-9 */
+}
+
+
+.bg-dark-themeBrownDark .bg-themeBrownDark-light {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+.border-themeBrownDark-md-light {
+    border-color: rgb(0 0 0 / 50%)
+}
+
+.bg-dark-themeBrownDark select.bg-themeBrownDark-light {
+    color: #fff
+}
+
+.bg-dark-themeBrownDark .bg-themeBrownDark-card {
+    background-color: rgb(0 0 0 / 34%);
+}
+
+.bg-dark-themeBrownDark .text-themeBrownDark {
+    color: #fff
+}
+
+.bg-dark-themeBrownDark .text-dark-theme {
+    color: #000
+}
+
+.bg-dark-themeBrownDark .bg-themeBrownDark-card h2,
+.bg-dark-themeBrownDark .sidebar-list {
+    color: #fff
+}
+
+.bg-dark-themeBrownDark .bg-themeBrownDark-card [type="radio"]+label {
+    color: #fff
+}
+
+.bg-dark-themeBrownDark .notification {
+    color: #fff
+}
+
+.bg-dark-themeBrownDark .text-active-themeBrownDark,
+.hover-text-themeBrownDark:hover,
+.bg-dark-themeBrownDark .text-themeBrownDark-dark {
+    color: #6A442E
+}
+
+.border-themeBrownDark {
+    border-color: #6A442E
+}
+
+.bg-dark-themeBrownDark .input-text:focus+.label-helper {
+    background-color: rgb(255 255 255 / 0%);
+    bottom: auto;
+    top: -11px;
+}
+
+.bg-dark-themeBrownDark .label-helper.visible {
+    opacity: 1;
+    bottom: auto;
+    top: -11px;
+    background-color: #ffffff00;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 1;
+    opacity: 1;
+    padding: 2px;
+    font-weight: 600;
+}
+
+/* .MuiButtonBase-root.MuiIconButton-root {
+    color: #fff
+  } */
+.bg-dark-themeBrownDark .css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active .MuiTableSortLabel-icon {
+    color: #fff
+}
+
+/********Theme themeToledoDark Theme**********/
+.wrapper.bg-dark-themeToledoDark {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2a4f77+0,4a1d31+100 */
+    background: #2a4f77;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #2a4f77 0%, #4a1d31 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #2a4f77 0%, #4a1d31 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #2a4f77 0%, #4a1d31 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2a4f77', endColorstr='#4a1d31', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.bg-dark-themeToledoDark .bg-themeToledoDark-light {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+.border-themeToledoDark-md-light {
+    border-color: rgb(0 0 0 / 50%)
+}
+
+.bg-dark-themeToledoDark select.bg-themeToledoDark-light {
+    color: #fff
+}
+
+.bg-dark-themeToledoDark .bg-themeToledoDark-card {
+    background-color: rgb(0 0 0 / 34%);
+}
+
+.bg-dark-themeToledoDark .text-themeToledoDark {
+    color: #fff
+}
+
+.bg-dark-themeToledoDark .text-dark-theme {
+    color: #000
+}
+
+.bg-dark-themeToledoDark .bg-themeToledoDark-card h2,
+.bg-dark-themeToledoDark .sidebar-list {
+    color: #fff
+}
+
+.bg-dark-themeToledoDark .bg-themeToledoDark-card [type="radio"]+label {
+    color: #fff
+}
+
+.bg-dark-themeToledoDark .notification {
+    color: #fff
+}
+
+.bg-dark-themeToledoDark .text-active-themeToledoDark,
+.hover-text-themeToledoDark:hover,
+.bg-dark-themeToledoDark .text-themeToledoDark-dark {
+    color: #4A1D31
+}
+.border-themeToledoDark {
+    border-color: #4A1D31
+}
+
+.bg-dark-themeToledoDark .input-text:focus+.label-helper {
+    background-color: rgb(255 255 255 / 0%);
+    bottom: auto;
+    top: -11px;
+}
+
+.bg-dark-themeToledoDark .label-helper.visible {
+    opacity: 1;
+    bottom: auto;
+    top: -11px;
+    background-color: #ffffff00;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 1;
+    opacity: 1;
+    padding: 2px;
+    font-weight: 600;
+}
+
+/* .MuiButtonBase-root.MuiIconButton-root {
+    color: #fff
+  } */
+.bg-dark-themeToledoDark .css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active .MuiTableSortLabel-icon {
+    color: #fff
+}
