@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.c30fc487.css",
+    "main.js": "/react-gh-pages/static/js/main.1005f888.js",
+    "static/js/787.28cb0dcd.chunk.js": "/react-gh-pages/static/js/787.28cb0dcd.chunk.js",
+    "static/media/login-bg.png": "/react-gh-pages/static/media/login-bg.502d8f027e1afe1b06fd.png",
+    "static/media/theme-dianee-dark.png": "/react-gh-pages/static/media/theme-dianee-dark.894f552551f61d41f630.png",
+    "static/media/theme-brown-dark.png": "/react-gh-pages/static/media/theme-brown-dark.33130bf4503285bdf962.png",
+    "static/media/theme-toledo-dark.png": "/react-gh-pages/static/media/theme-toledo-dark.e1295bea9935097bcd0d.png",
+    "static/media/not-found.png": "/react-gh-pages/static/media/not-found.f1add03fd6e81b8d667c.png",
+    "static/media/theme-cyan-light.png": "/react-gh-pages/static/media/theme-cyan-light.9a0461919ffa11b9f4b2.png",
+    "static/media/notification-tone.mp3": "/react-gh-pages/static/media/notification-tone.a7b56649c4c1c5a8adb0.mp3",
+    "static/media/theme-blue-light.png": "/react-gh-pages/static/media/theme-blue-light.8827af850bbe6b5ad16f.png",
+    "static/media/theme-blue-dark.png": "/react-gh-pages/static/media/theme-blue-dark.a078973851fb5bb91644.png",
+    "static/media/theme-purple-light.png": "/react-gh-pages/static/media/theme-purple-light.525a0fa5ef03e6c0b095.png",
+    "static/media/theme-red-light.png": "/react-gh-pages/static/media/theme-red-light.0247f21947f1d5e590da.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.c30fc487.css.map": "/react-gh-pages/static/css/main.c30fc487.css.map",
+    "main.1005f888.js.map": "/react-gh-pages/static/js/main.1005f888.js.map",
+    "787.28cb0dcd.chunk.js.map": "/react-gh-pages/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c30fc487.css",
+    "static/js/main.1005f888.js"
+  ]
+}
